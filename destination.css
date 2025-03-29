@@ -1,0 +1,113 @@
+
+        
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color:  rgb(87, 248, 0);
+}
+.logo{
+    font-size: 23px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    padding-left: 20px;
+    font-family:cursive;
+    color: rgb(18, 17, 17);
+}
+.nav-items a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding: 20px;
+}
+.nav-items a:hover{
+    /* background: rgb(69, 114, 2); */
+    border: none;
+    border-radius: 10px;
+    color: rgb(201, 131, 10);
+    text-decoration: underline;
+}
+        
+.destination_tagline {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    color: #333;
+    font-style: italic;
+}
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        .destination {
+            background-color: white;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            transition: transform 0.3s ease;
+        }
+
+        .destination:hover {
+            transform: translateY(-5px);
+        }
+
+        .destination img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            animation: imageSlide 5s linear infinite alternate;
+        }
+
+        .destination-info {
+            padding: 20px;
+            flex: 1;
+        }
+
+        .destination h2 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .destination p {
+            margin: 5px 0;
+            color: #666;
+        }
+
+        .destination button {
+            background-color:  rgb(87, 248, 0);
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .destination button:active {
+            background-color:  rgb(87, 248, 0);
+        }
+
+        .footer{
+            background: black;
+            color: antiquewhite;
+            text-align: center;
+            padding: 10px;
+        }
+        .footer a{
+            color: antiquewhite;
+            text-decoration: none;
+        }
